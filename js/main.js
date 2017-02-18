@@ -9,7 +9,7 @@ window.onload = function () {
             metrics: []
         },
         created: function () {
-            this.$http.get('http://' + this.$route.query.api + '/metrics').then(function (response) {
+            this.$http.get('https://' + this.$route.query.api + '/metrics').then(function (response) {
                 this.metrics = response.body;
             });
         }
