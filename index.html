@@ -16,7 +16,7 @@
 <div id="metrics">
     <ul>
         <li v-for="metric in metrics">
-            <a :href="metric.metric_id">{{ metric.name }}</a>
+            <a :href="metric.metric_id">{{ metric.name }}</a> {{ metric.value }}
         </li>
     </ul>
 </div>
