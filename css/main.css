@@ -4,10 +4,16 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 html, body {
     font-family: 'Roboto', sans-serif;
+    background: #eee;
 }
 
 #signData {
     position: fixed;
     bottom: 10px;
     right: 5px;
+}
+
+#graph {
+    background: #fff;
+    margin: 10px;
 }
