@@ -24,9 +24,10 @@
 
             }
             // data = data.slice(-500);
-
-            graph(data);
-        })
+            loadHandler.add(function () {
+                graph(data);
+            });
+        });
 
 
     function graph(data) {
